@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+body{
+  background-color: black;
+}
+.cabecalhoPrincipal-nav{ 
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-top: 60px
+  /* position: absolute; */
+  /* background-color: #FF5A01; */
+  /* justify-content: space-between; */
+}
+
+a{
+  margin-right: 50px;
+  font-size: 2em
+}
+
+/* .cabecalhoPrincipal-nav a{
+  display: flex;
+} */
+
+.container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.conteudoImagem{
+  color: white;
+  margin-top: 250px;
+  display: flex;
+  margin-left: 350px;
+  
+}
+#conteudoPrincipal-contato{
+  color: #FF5A01;
+}
+.AppHome{
+  background-color: black;
+  height: 790px;
+  /* background-image:  url('../../assets/img/TWD4KW.jpg'); */
+  /* height: 790px; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: 500px; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+}
+.LogoSimples img{
+  background-color: #FF5A01;
+  border-radius: 50px;
+  display: flex;
+  margin-left: 25px;
+  /* position: absolute; */
+  margin-top: 25px;
+}
+
+main{
+  height: 675px;
+  background-color: black;
+}
+
+#conteudoPrincipal-contato-titulo{
+  font-size: 2em;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-left: 665px;
+  margin-top: -5px;
+}
+.conteudo-contato-mapa{
+  margin-left: 390px;
+  margin-top: 60px;
+  background-color: #FF5A01;
+}
+.conteudo-contato-endereco{
+  margin-top: 600px;
+  display: flex;
+  position: absolute;
+  margin-left: 590px;
+}
+#Rodape{
+  background-color: white;
+}
+.linha{
+  background-color: white;
+  height: 10px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.cabecalhoPrincipal-nav-login{
+  text-decoration: none;
+  color: #FF5A01;
+}
