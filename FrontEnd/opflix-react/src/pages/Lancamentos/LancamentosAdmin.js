@@ -74,9 +74,6 @@ class LancamentosAdmin extends Component{
                     <div className="container">
                     <img src={logosimples} />
 
-                    <nav className="cabecalhoPrincipal-nav">
-                        {this.state.Permissao}
-                    </nav>
                     </div>
                 </header>
 
@@ -105,7 +102,7 @@ class LancamentosAdmin extends Component{
                             <input
                             type="text"
                             className="className__titulo"
-                            id="input__titulp"
+                            id="input__tituloL"
                             placeholder="Título"
                             value={this.state.Titulo}
                             onChange={this.atualizarTitulo.bind(this)}
@@ -113,7 +110,7 @@ class LancamentosAdmin extends Component{
                             <input
                             type="text"
                             className="className__sinopse"
-                            id="input__sinopse"
+                            id="input__sinopseL"
                             placeholder="Sinopse"
                             value={this.state.Sinopse}
                             onChange={this.atualizarSinopse.bind(this)}
@@ -121,7 +118,7 @@ class LancamentosAdmin extends Component{
                             <input
                             type="text"
                             className="className__idcategoria"
-                            id="input__idcategoria"
+                            id="input__idcategoriaL"
                             placeholder="IdCategoria"
                             value={this.state.IdCategoria}
                             onChange={this.atualizarIdCategoria.bind(this)}
@@ -129,7 +126,7 @@ class LancamentosAdmin extends Component{
                             <input
                             type="text"
                             className="className__tempoduracao"
-                            id="input__tempoduracao"
+                            id="input__tempoduracaoL"
                             placeholder="Tempo de Duração"
                             value={this.state.Categoria}
                             onChange={this.atualizarTempoDuracao.bind(this)}
@@ -137,7 +134,7 @@ class LancamentosAdmin extends Component{
                             <input
                             type="text"
                             className="className__filmeserie"
-                            id="input__filmeserie"
+                            id="input__filmeserieL"
                             placeholder="Filme ou Série"
                             value={this.state.FilmeSerie}
                             onChange={this.atualizarFilmeSerie.bind(this)}
@@ -145,7 +142,7 @@ class LancamentosAdmin extends Component{
                             <input
                             type="text"
                             className="className__datalancamento"
-                            id="input__datalancamento"
+                            id="input__datalancamentoL"
                             placeholder="Data de Lançamento"
                             value={this.state.DataLancamento}
                             onChange={this.atualizarDataLancamento.bind(this)}

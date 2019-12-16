@@ -10,7 +10,127 @@
 }
 .conteudoPrincipal-cadastro-tituloL{
     color: #FF5A01;
-    display: flex;
-    margin-right: 500px;
-    margin-top: -60px;
+    margin-left: 550px;
+    margin-top: -50px;
+    position: absolute;
+}
+#input__tituloL{
+    border-radius: 50px;
+    text-align: center;
+    background-color: #FF5A01;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    height: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.5em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;  
+    margin-top: 200px;
+    font-size: 0.9em;
+    position: absolute;
+    margin-left: 230px;
+}
+#input__sinopseL{
+    border-radius: 50px;
+    text-align: center;
+    background-color: #FF5A01;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    height: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.5em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;  
+    margin-top: 300px;
+    font-size: 0.9em;
+    position: absolute;
+    margin-left: 230px;
+}
+#input__idcategoriaL{
+    border-radius: 50px;
+    text-align: center;
+    background-color: #FF5A01;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    height: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.5em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;  
+    margin-top: 400px;
+    font-size: 0.9em;
+    position: absolute;
+    margin-left: 230px;
+}
+#input__tempoduracaoL{
+    border-radius: 50px;
+    text-align: center;
+    background-color: #FF5A01;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    height: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.5em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;  
+    margin-top: 200px;
+    font-size: 0.9em;
+    position: absolute;
+    margin-left: 830px;
+}
+#input__filmeserieL{
+    border-radius: 50px;
+    text-align: center;
+    background-color: #FF5A01;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    height: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.5em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;  
+    margin-top: 300px;
+    font-size: 0.9em;
+    position: absolute;
+    margin-left: 830px;
+}
+#input__datalancamentoL{
+    border-radius: 50px;
+    text-align: center;
+    background-color: #FF5A01;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    height: 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.5em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;  
+    margin-top: 400px;
+    font-size: 0.9em;
+    position: absolute;
+    margin-left: 830px;
 }
