@@ -148,14 +148,13 @@ class LancamentosAdmin extends Component{
                             onChange={this.atualizarDataLancamento.bind(this)}
                             />
                             <button
-                            id="btn__cadastrar"
+                            id="btn__cadastrarL"
                             className="conteudoPrincipal-btn conteudoPrincipal-btn-cadastro"
                             >
                             GO!
                             </button>
                         </div>
                         </form>
-                        {/* <Link to="/login">Login</Link> */}
                     </div>
                     
                     </section>

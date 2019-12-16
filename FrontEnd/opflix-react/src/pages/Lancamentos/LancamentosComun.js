@@ -1,7 +1,9 @@
 import React,{Component} from 'react';
-import logosimples from '../../assets/img/LogoSimples.png';
 import Rodape from '../../components/Rodape/Rodape';
 import Axios from "axios";
+import logosimples from '../../assets/img/LogoSimples.png';
+import LancamentosComunStyle from "./LancamentosComun.css";
+
 
 class LancamentosComun extends Component {
 
@@ -29,6 +31,12 @@ class LancamentosComun extends Component {
     render() {
         return (
             	<div>
+            <header className="cabecalhoPrincipal">
+                    <div className="container">
+                    <img src={logosimples} />
+
+                    </div>
+                </header>
                 <div className="lancamentos">
                     {this.state.lista.map(element => {
                         return (
