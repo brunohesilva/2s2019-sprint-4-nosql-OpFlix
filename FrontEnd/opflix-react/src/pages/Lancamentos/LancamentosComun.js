@@ -34,15 +34,15 @@ class LancamentosComun extends Component {
             <header className="cabecalhoPrincipal">
                     <div className="container">
                     <img src={logosimples} />
-
+                    <h2 className="conteudoPrincipal-tituloLC">Lançamentos</h2>
                     </div>
                 </header>
                 <div className="lancamentos">
                     {this.state.lista.map(element => {
                         return (
                             <div id="infos">
-                                <ul>
-                                    <li># {element.idLancamento}</li>
+                                <ul className="titulos">
+                                    {/* <li>{element.idLancamento}</li> */}
                                     <li>Título: {element.titulo}</li>
                                     <li>Sinopse: {element.sinopse}</li>
                                     <li>Tempo de Duração: {element.tempoDuracao}</li>
@@ -54,6 +54,7 @@ class LancamentosComun extends Component {
                         );
                     })}
                 </div>
+                <Rodape />
             </div>
         );
     }

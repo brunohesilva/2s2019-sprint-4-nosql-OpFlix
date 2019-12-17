@@ -4,7 +4,7 @@
 }
 .container img{  
     border-radius: 50px;
-    display: flex;
+    display: flex; 
     margin-left: 25px;
     margin-top: 25px;
 }

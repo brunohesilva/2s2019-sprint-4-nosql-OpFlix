@@ -3,6 +3,8 @@ import logosimples from '../../assets/img/LogoSimples.png';
 import Rodape from '../../components/Rodape/Rodape';
 import { parseJwt } from "../../services/auth";
 import Axios from "axios";
+import CategoriasAdminStyle from "./CategoriasAdmin.css";
+
 
 class CategoriasAdmin extends Component{
 
@@ -52,7 +54,6 @@ class CategoriasAdmin extends Component{
                     <img src={logosimples} />
 
                     <nav className="cabecalhoPrincipal-nav">
-                        {this.state.Permissao}
                     </nav>
                     </div>
                 </header>
@@ -65,23 +66,23 @@ class CategoriasAdmin extends Component{
                    
                         <div className="container" id="conteudoPrincipal-cadastro">
                         <h2 className="conteudoPrincipal-cadastro-titulo">
-                        Cadastrar Categoria
+                        Cadastro de uma Categoria
                         </h2>
                         <form onSubmit={this.cadastrarCategoria }>
                         <div className="container">
                             <input
                             type="text"
                             className="className__categoria"
-                            id="input__categoria"
+                            id="input__categoriaC"
                             placeholder="Categoria"
                             value={this.state.Categoria}
                             onChange={this.atualizarCategoria.bind(this)}
                             />
                             <button
-                            id="btn__cadastrar"
+                            id="btn__cadastrarC"
                             className="conteudoPrincipal-btn conteudoPrincipal-btn-cadastro"
                             >
-                            Cadastrar
+                            GO!
                             </button>
                         </div>
                         </form>

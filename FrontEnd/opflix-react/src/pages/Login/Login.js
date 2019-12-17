@@ -44,7 +44,7 @@ class Login extends Component {
                 if (response.status === 200) {
                     console.log(response.data.token);
                     localStorage.setItem("usuario-opflix", response.data.token);
-                    this.props.history.push('/usuarios');
+                    this.props.history.push('/lancamentos');
                 } else {
                     console.log('vish deu ruim');
                 }

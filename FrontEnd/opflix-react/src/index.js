@@ -12,7 +12,6 @@ import UsuariosAdmin from "./pages/Usuarios/UsuariosAdmin";
 import UsuariosComun from "./pages/Usuarios/UsuariosComun";
 import CategoriasAdmin from "./pages/Categorias/CategoriasAdmin";
 import CategoriasComum from "./pages/Categorias/CategoriasComun";
-import ListaCategorias from "./pages/Categorias/Categorias";
 import LancamentosAdmin from "./pages/Lancamentos/LancamentosAdmin";
 import LancamentosComun from "./pages/Lancamentos/LancamentosComun";
 import LocalizacoesAdmin from "./pages/Localizacoes/LocalizacoesAdmin";
@@ -50,7 +49,6 @@ const routing = (
                 <PermissaoAdmin path='/usuariosAdmin' component={UsuariosAdmin} />
                 <PermissaoAdmin path='/categoriasAdmin' component={CategoriasAdmin}/>
                 <PermissaoAdmin path='/lancamentosAdmin' component={LancamentosAdmin} />
-                <PermissaoAdmin path='/listacategorias' component={ListaCategorias} />
                 <PermissaoAdmin path='/localizacoesAdmin' component={LocalizacoesAdmin} />                 
                 <Route component={NaoEncontrado} />
             </Switch>
