@@ -1,8 +1,9 @@
 import React,{Component} from 'react';
 import logosimples from '../../assets/img/LogoSimples.png';
-import Rodape from '../../components/Rodape/Rodape';
 import { parseJwt } from "../../services/auth";
 import Axios from "axios";
+import LocalizacoesAdminStyle from "./LocalizacoesAdmin.css";
+
 
 class LocalizacoesAdmin extends Component{
     constructor(){
@@ -60,7 +61,7 @@ class LocalizacoesAdmin extends Component{
                     <img src={logosimples} />
 
                     <nav className="cabecalhoPrincipal-nav">
-                        {this.state.Permissao}
+                    <h2 className="conteudoPrincipal-cadastro-tituloLZ">Bora Cadastrar uma Localização</h2>
                     </nav>
                     </div>
                 </header>
@@ -90,7 +91,7 @@ class LocalizacoesAdmin extends Component{
                             <input
                             type="text"
                             className="className__nomeLancamento"
-                            id="input__nomeLancamento"
+                            id="input__nomeLancamentoLZ"
                             placeholder="Nome do Lançamento"
                             value={this.state.NomeLancamento}
                             onChange={this.atualizarNomeLancamento.bind(this)}
@@ -98,7 +99,7 @@ class LocalizacoesAdmin extends Component{
                             <input
                             type="text"
                             className="className__latitude"
-                            id="input__latitude"
+                            id="input__latitudeLZ"
                             placeholder="Latitude"
                             value={this.state.Latitude}
                             onChange={this.atualizarLatitude.bind(this)}
@@ -106,7 +107,7 @@ class LocalizacoesAdmin extends Component{
                             <input
                             type="text"
                             className="className__longitude"
-                            id="input__longitude"
+                            id="input__longitudeLZ"
                             placeholder="Longitude"
                             value={this.state.Longitude}
                             onChange={this.atualizarLongitude.bind(this)}
@@ -125,9 +126,10 @@ class LocalizacoesAdmin extends Component{
                     </section>
                 </main>
 
-                <footer className="rodapePrincipal">
+                
+                <footer className="rodapePrincipalLZ">
                     <section className="rodapePrincipal-patrocinadores">
-                    <div className="container">
+                    <div className="containerLZ">
                         <p>Escola SENAI de Informática - 2019</p>
                     </div>
                     </section>
